@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Assets/css/styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Wilmert's Web Portfolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="container my-5">
+        <!-- About Me Section -->
+        <section id="about" class="text-center">
+            <h1>Wilmert Delorbe</h1>
+            <img src="assets/images/profile.jpg" alt="About Me" class="rounded-circle img-fluid mt-3 mb-3" style="max-width: 150px;">
+            <p>Hello, my name is Wilmert, and welcome to my web portfolio. I am a web developer from Philadelphia, Pennsylvania, currently based on the West Coast. Creating applications that solve real-world problems is my passion. Since light attracts bugs, I decided to become a web developer. I love working with teamates to come up with solutions to problmes and then being able to see them in the real world. I think that's the most beautiful part about coding, and I am eager to create more .</p>
+        </section>
+        
+      <!-- Work Section -->
+<section id="work">
+    <h2>My Work</h2>
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <a href="https://sorencharlie.github.io/PetFinderApp/">
+                    <img src="https://media.istockphoto.com/id/1344021882/photo/portrait-of-happy-multiracial-couple-scratching-their-pet-dog-sitting-on-floor-at-home.webp?b=1&s=170667a&w=0&k=20&c=muuWZTKMKG05cP9D7c5C5Qwxe8087erEJMtbjMe2Utc=" alt="Application 1" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Petfinder App</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <a href="https://barinventoryapp-73xs.onrender.com/" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmtlnGckixzHvCLeXZ6LQfDFCugUCQxeovEg&s" alt="BarKeeper App" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">BarKeeper App</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="text-center">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST" class="mx-auto" style="max-width: 500px;">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark">Send</button>
+            <form>
+        </section>
+    </main>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
